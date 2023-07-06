@@ -4,8 +4,16 @@
       {
         "id": "7f7ce9ff-faf5-4df0-8556-75c75e335f72",
         "line": 7,
-        "version": 243,
-        "index": 83
+        "version": 280,
+        "index": 100
+      }
+    ],
+    "templates/home.html": [
+      {
+        "id": "9fffdbf3-82f0-4d19-9480-475bb3a2eea8",
+        "line": 6,
+        "version": 592,
+        "index": 78
       }
     ]
   }
