@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <title>Flask Khor Careers</title>
+  <head>
+  <title>Famire</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <style>
+           body {
+    background: black;
+    color: green;
+           }
     h1 {
       font-size: 40px;
       font-family: Times;
       font-weight: 900;
-      color: rgb(100, 100, 100);
       text-align: center
     }
   .center {
@@ -15,15 +20,34 @@
   margin-right: auto;
   width: 50%;
 }
+    #banner {
+    height:360px;
+      width:100%;
+      object-fit: cover;
+    }
+    h2 {
+      font-family:times;
+      font-size:30;
+      font-weight: 900;
+    }
+    .bodytext {
+      font-size: 10;
+    }
+
+    #container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
   </style>
-<head>
+  </head>
  <body>
- <h1>Flask Khors</h1>            
-   <img src="https://flask-khor-tutorial--mahanghelichi.repl.co/static/mamad.jpg" height="320" width="1000" class=center> 
-   <h2>Mohammad the flask khor.</h2>
-   <h2>About flask khors</h2>
+   <div id="container">
+ <h1>Famire</h1>            
+   <img id="banner" src="https://flask-khor-tutorial--mahanghelichi.repl.co/static/101010.jpg"  class=center>
+   <h2 style="text-align: center;">Flask khors</h2>
+   <h2 style="text-align: center;">About flask khors</h2>
   
-   <p>
+   <p class="bodytext">
      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nascetur ridiculus mus mauris vitae ultricies. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Porta lorem mollis aliquam ut porttitor. Odio ut enim blandit volutpat maecenas. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Ut etiam sit amet nisl purus in mollis. Mi in nulla posuere sollicitudin aliquam ultrices. Lobortis mattis aliquam faucibus purus. Scelerisque viverra mauris in aliquam sem. Amet mauris commodo quis imperdiet massa tincidunt. Commodo odio aenean sed adipiscing diam donec adipiscing. Elit at imperdiet dui accumsan sit amet. Erat velit scelerisque in dictum non. Ipsum faucibus vitae aliquet nec.
 
 Maecenas ultricies mi eget mauris pharetra et ultrices. Eros in cursus turpis massa tincidunt dui ut. Aliquam eleifend mi in nulla posuere. Nullam non nisi est sit amet. Tincidunt ornare massa eget egestas purus viverra accumsan in. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Et malesuada fames ac turpis egestas integer eget. Et odio pellentesque diam volutpat commodo sed egestas. Augue ut lectus arcu bibendum at varius vel pharetra. Cursus euismod quis viverra nibh. Commodo nulla facilisi nullam vehicula ipsum a arcu. At volutpat diam ut venenatis tellus. Duis at consectetur lorem donec massa sapien faucibus et. Convallis convallis tellus id interdum velit laoreet id. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Sem nulla pharetra diam sit amet nisl. Donec ultrices tincidunt arcu non sodales.
@@ -34,8 +58,12 @@ Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ullamcorper dig
 
 Dignissim enim sit amet venenatis urna. Justo donec enim diam vulputate ut pharetra sit amet. At risus viverra adipiscing at in. Lacus vestibulum sed arcu non odio euismod. Lacinia quis vel eros donec ac odio tempor orci. Bibendum enim facilisis gravida neque convallis a. Purus sit amet luctus venenatis lectus. Orci eu lobortis elementum nibh tellus. Ullamcorper eget nulla facilisi etiam dignissim. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Posuere lorem ipsum dolor sit amet.
    </p>
-   <h2>Available Flask Khors for rent!</h2>
+   <h2>Available Flask Khors for sale!</h2>
    <p>TODO - Show the flask khors</p>
-   <button>Contact Us</button>
+     <div style="text-align:center;">
+   <button class="btn btn-primary btn lg">Contact Us</button>
+       <p>Copyright 2023, Famire</p>
+     </div>
+     </div>
  </body>
 </html>
