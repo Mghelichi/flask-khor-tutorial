@@ -42,7 +42,9 @@
   </head>
  <body>
    <div id="container">
- <h1>Famire</h1>            
+ <h1>
+   {{company_name}}
+ </h1>            
    <img id="banner" src="https://flask-khor-tutorial--mahanghelichi.repl.co/static/101010.jpg"  class=center>
    <h2 style="text-align: center;">Flask khors</h2>
    <h2 style="text-align: center;">About flask khors</h2>
@@ -59,7 +61,11 @@ Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ullamcorper dig
 Dignissim enim sit amet venenatis urna. Justo donec enim diam vulputate ut pharetra sit amet. At risus viverra adipiscing at in. Lacus vestibulum sed arcu non odio euismod. Lacinia quis vel eros donec ac odio tempor orci. Bibendum enim facilisis gravida neque convallis a. Purus sit amet luctus venenatis lectus. Orci eu lobortis elementum nibh tellus. Ullamcorper eget nulla facilisi etiam dignissim. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Posuere lorem ipsum dolor sit amet.
    </p>
    <h2>Available Flask Khors for sale!</h2>
-   <p>TODO - Show the flask khors</p>
+   <div>
+    {% for flask in flasks %}
+{% include 'flaskitem.html' %}
+     {% endfor%}
+   </div>
      <div style="text-align:center;">
    <button class="btn btn-succes">Contact Us</button>
        <p class="mt-4">Copyright 2023, Famire</p>
