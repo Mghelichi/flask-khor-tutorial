@@ -13,7 +13,7 @@ FLASKKHORS = [
     'id' : 2,
     'title' : "Saghar",
     'location' : 'Boushehr, Iran',
-    'price' : 'two Kidneys'
+    'price' : '1$'
   },
   {
     'id' : 3,

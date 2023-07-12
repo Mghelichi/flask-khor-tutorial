@@ -24,6 +24,7 @@
     height:360px;
       width:100%;
       object-fit: cover;
+      marginbottom: 16px;
     }
     h2 {
       font-family:times;
@@ -42,12 +43,17 @@
   </head>
  <body>
 {%include 'nav.html'%}
+   <img id="banner" src="https://flask-khor-tutorial--mahanghelichi.repl.co/static/dum.jpg"  class=center>
    <div id="container">
  <h1>
    {{company_name}}
  </h1>            
-   <img id="banner" src="https://flask-khor-tutorial--mahanghelichi.repl.co/static/101010.jpg"  class=center>
-   <h2 style="text-align: center;">Flask khors</h2>
+   
+   <h2 style="text-align: center;">How to buy a 
+ flask khor</h2>
+     <p>Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ullamcorper dignissim cras tincidunt lobortis. Laoreet id donec ultrices tincidunt arcu. Nulla facilisi nullam vehicula ipsum a arcu. Non consectetur a erat nam at lectus urna duis convallis. Posuere morbi leo urna molestie at elementum eu. Sed elementum tempus egestas sed sed risus. Netus et malesuada fames ac turpis. Dignissim convallis aenean et tortor at. Ac felis donec et odio pellentesque diam.
+
+Dignissim enim sit amet venenatis urna. Justo donec enim diam vulputate ut pharetra sit amet. At risus viverra adipiscing at in. Lacus vestibulum sed arcu non odio euismod. Lacinia quis vel eros donec ac odio tempor orci. Bibendum enim facilisis gravida neque convallis a. Purus sit amet luctus venenatis lectus. Orci eu lobortis elementum nibh tellus. Ullamcorper eget nulla facilisi etiam dignissim. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Posuere lorem ipsum dolor sit amet.</p>
    <h2 style="text-align: center;">About flask khors</h2>
   
    <p class="bodytext">
@@ -57,9 +63,7 @@ Maecenas ultricies mi eget mauris pharetra et ultrices. Eros in cursus turpis ma
 
 Lorem sed risus ultricies tristique nulla aliquet. Massa eget egestas purus viverra accumsan in nisl nisi. Feugiat vivamus at augue eget arcu dictum varius duis. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Cras tincidunt lobortis feugiat vivamus at augue. Ullamcorper velit sed ullamcorper morbi tincidunt ornare. Tortor posuere ac ut consequat. Ut porttitor leo a diam sollicitudin tempor id eu nisl. Pretium fusce id velit ut. Consequat semper viverra nam libero justo. Sit amet tellus cras adipiscing enim eu. Pellentesque adipiscing commodo elit at. Laoreet sit amet cursus sit amet dictum sit amet. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Vel turpis nunc eget lorem dolor. Porttitor lacus luctus accumsan tortor posuere. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Sed euismod nisi porta lorem mollis aliquam.
 
-Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Ullamcorper dignissim cras tincidunt lobortis. Laoreet id donec ultrices tincidunt arcu. Nulla facilisi nullam vehicula ipsum a arcu. Non consectetur a erat nam at lectus urna duis convallis. Posuere morbi leo urna molestie at elementum eu. Sed elementum tempus egestas sed sed risus. Netus et malesuada fames ac turpis. Dignissim convallis aenean et tortor at. Ac felis donec et odio pellentesque diam.
 
-Dignissim enim sit amet venenatis urna. Justo donec enim diam vulputate ut pharetra sit amet. At risus viverra adipiscing at in. Lacus vestibulum sed arcu non odio euismod. Lacinia quis vel eros donec ac odio tempor orci. Bibendum enim facilisis gravida neque convallis a. Purus sit amet luctus venenatis lectus. Orci eu lobortis elementum nibh tellus. Ullamcorper eget nulla facilisi etiam dignissim. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Posuere lorem ipsum dolor sit amet.
    </p>
    <h2>Available Flask Khors for sale!</h2>
    <div>
@@ -68,9 +72,10 @@ Dignissim enim sit amet venenatis urna. Justo donec enim diam vulputate ut phare
      {% endfor%}
    </div>
      <div style="text-align:center;">
-   <button class="btn btn-succes">Contact Us</button>
+   <a class="btn btn-primary btn-lg "href="mailto:maghelichi89@gmail.com?subject=Feedbacks.&body=Your%20User%3A%0D%0A%0D%0AYour%20Feedback%3A%0D%0A%0D%0AYour%20Question%3A%0D%0A">Contact Us</a>
        <p class="mt-4">Copyright 2023, Famire</p>
      </div>
      </div>
+   {% include 'footer.html'%}
  </body>
 </html>
